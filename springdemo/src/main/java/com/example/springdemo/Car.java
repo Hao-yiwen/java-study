@@ -1,7 +1,6 @@
-package org.example;
+package com.example.springdemo;
 
-import org.example.yiwen.ElectricEngine;
-import org.example.yiwen.Engine;
+import com.example.springdemo.yiwen.Engine;
 
 public class Car {
     private Engine engine;
