@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+      http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/util
+      http://www.springframework.org/schema/util/spring-util.xsd"
+>
+    <bean id="car" class="com.example.xmldidemo.Car" >
+        <constructor-arg ref="engine" />
+    </bean>
+
+    <bean id="engine" class="com.example.xmldidemo.yiwen.CombunstionEngine">
+        <constructor-arg ref="crankshaft"/>
+        <constructor-arg ref="camshaft" />
+    </bean>
+
+    <bean id="camshaft" class="com.example.xmldidemo.yiwen.Camshaft"/>
+
+    <bean id="crankshaft" class="com.example.xmldidemo.yiwen.Crankshaft"/>
+</beans>
