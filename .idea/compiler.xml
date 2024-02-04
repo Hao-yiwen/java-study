@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springDemo1" />
+        <module name="javaDemo" />
         <module name="springdemo" />
         <module name="xmlDIDemo" />
         <module name="javaDemo1" />
