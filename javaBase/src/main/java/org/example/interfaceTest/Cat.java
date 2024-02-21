@@ -1,5 +1,7 @@
-package org.example;
+package org.example.interfaceTest;
 
+
+import org.example.interfaceTest.Animal;
 
 public class Cat extends Animal {
     @Override

@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.interfaceTest.Animal;
+import org.example.interfaceTest.Cat;
+
 /**
  * Hello world!
  *
