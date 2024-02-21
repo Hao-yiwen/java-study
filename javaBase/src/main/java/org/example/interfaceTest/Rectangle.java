@@ -1,4 +1,4 @@
-package org.example;
+package org.example.interfaceTest;
 
 public class Rectangle implements Shape{
     @Override

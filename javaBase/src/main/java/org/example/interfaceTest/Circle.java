@@ -1,4 +1,4 @@
-package org.example;
+package org.example.interfaceTest;
 
 public class Circle implements Shape{
     @Override
