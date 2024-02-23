@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/xmlDIDemo/pom.xml" />
         <option value="$PROJECT_DIR$/javaDemo/pom.xml" />
         <option value="$PROJECT_DIR$/javaBase/pom.xml" />
+        <option value="$PROJECT_DIR$/kotlinBase/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
