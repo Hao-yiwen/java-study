@@ -1,8 +1,9 @@
-package org.example;
+package org.example1;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+import org.example.ProtectTest;
 
 /**
  * Unit test for simple App.
@@ -33,6 +34,8 @@ public class AppTest
      */
     public void testApp()
     {
-        assertTrue( true );
+        ProtectTest test = new ProtectTest();
+//        System.out.println(test.name);
+        System.out.println(test.age);
     }
 }
