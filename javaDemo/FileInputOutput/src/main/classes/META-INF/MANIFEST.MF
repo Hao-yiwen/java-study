@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: org.example.GenericsLearning
+Created-By: 21.0.1 (Amazon.com Inc.)
+
